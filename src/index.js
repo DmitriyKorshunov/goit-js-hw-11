@@ -1,6 +1,6 @@
 import Notify from 'notiflix';
 import { gallery, btnLoadMore, searchForm } from './js/refselement';
-//import  from './js/fetch-images';
+import ApiService from './js/fetch-images';
 import { renderPhotoCard } from './js/card-templates';
 
 const imageApiService = new ApiService();

@@ -1,4 +1,4 @@
-ody {
+body {
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
@@ -18,6 +18,7 @@ img {
 }
 a {
   text-decoration: none;
+  color: #212121;
 }
 
 h1,
@@ -29,4 +30,10 @@ h6,
 p {
   margin: 0;
   padding: 0;
+}
+
+.container {
+  margin-top: 110px;
+
+  padding: 0 50px;
 }
