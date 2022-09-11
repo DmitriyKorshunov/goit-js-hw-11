@@ -25,9 +25,8 @@ export default class ApiService {
         },
       };
 
-      const data = await axios
-        .get(`${URL}`, options)
-        .then(response => response.data);
+      const response = await axios.get(`${URL}`, options);
+      const data = await response.data;
 
       this.page += 1;
       this.totalHits = response.data.totalHits;

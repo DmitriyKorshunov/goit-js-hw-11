@@ -1,4 +1,4 @@
-import { gallery, btnLoadMore } from './refselement';
+import { gallery } from './refselement';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
